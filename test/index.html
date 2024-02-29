@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{border:0; padding:0; margin:0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif;}
+.en{font-family: 'Poppins', sans-serif;}
+body{overflow: hidden;}
+.sian_index{width:100%; height:100vh; display: flex; align-items: center; justify-content: center;overflow: hidden; background:#f2f2f2;}
+.sian_index h2{position: absolute; left:50%; top:120px; transform: translate(-50%,0); font-size:2vw; font-weight: 900;}
+.sian_index a{text-decoration: none; font-size:1vw; display: flex; flex-direction: column; align-items: center; gap:60px; font-weight: 700; color:#000;}
+.sian_index a span{width:400px; height:225px; display: flex; align-items: flex-start; justify-content: center; transition: all .3s ease; overflow: hidden;}
+.sian_index a:hover span{box-shadow: 0 10px 20px rgba(0, 0, 0, .25);}
+.sian_index img{max-width:425px; width:100%;}
+.sian_index .content{display: flex; align-items: center; justify-content: center; gap:40px;}
+</style>
+<!-- 
+    :: 썸네일 size 400x225
+-->
+<body>
+    <div class="sian_index">
+        <h2>충청남도 문화유산 통합관리시스템</h2>
+        <div class="content">
+            <a href="sian_A.html"> <span><img src="img/sian_A_1.jpg"></span> <p class="en">A_type</p> </a>
+            <a href="sian_B.html"> <span><img src="img/sian_B_3.jpg"></span> <p class="en">B_type</p> </a>
+            <a href="sian_C.html"> <span><img src="img/sian_C_1.jpg"></span> <p class="en">C_type</p> </a>
+        </div>
+        
+    </div>
+</body>
+</html>
